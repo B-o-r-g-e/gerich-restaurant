@@ -1,10 +1,22 @@
 import React from 'react';
+import { images } from '../../constants'
 
 import './AboutUs.css';
 
 const AboutUs = () => (
-  <div>
-    AboutUs
+  <div className='app__aboutus app__bg flex--center section__padding' id='about'>
+    <div className="app__aboutus-overlay flex__center">
+        <img src={images.G} alt="G letter"/>
+    </div>
+
+    <div className="app__aboutus-content flex__center">
+        <div className="app__aboutus-content_about">
+            <h1 className="headtext__cormorant">
+                About Us
+            </h1>
+            <img src="" alt=""/>
+        </div>
+    </div>
   </div>
 );
 
