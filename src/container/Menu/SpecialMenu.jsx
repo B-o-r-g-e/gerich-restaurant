@@ -16,10 +16,15 @@ const SpecialMenu = () => (
             <p className='app__specialMenu_menu_heading'>Wine & Beer</p>
             <div className="app__specialMenu-menu_items">
                 {data.wines.map((wine, index) => (
-                    <p></p>
+                    <p>{wine.title}</p>
                 ))}
             </div>
         </div>
+
+        <div className="app__specialMenu_menu_img">
+            <img src={images.menu} alt="menu img"/>
+        </div>
+
     </div>
   </div>
 );
