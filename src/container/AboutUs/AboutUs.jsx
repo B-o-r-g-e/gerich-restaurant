@@ -26,9 +26,9 @@ const AboutUs = () => (
               <img src={images.knife} alt="about knife"/>
           </div>
 
-          <div className="app__aboutus-content_about">
+          <div className="app__aboutus-content_history">
               <h1 className="headtext__cormorant">
-                  About Us
+                  Our History
               </h1>
               <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
               <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur
