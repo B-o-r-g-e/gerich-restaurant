@@ -19,10 +19,10 @@
 }
 
 .app__specialMenu-menu_heading {
-    font-family: var(--font-base);
+    font-family: var(--font-base), serif;
     font-weight: 600;
     font-size: 45px;
-    line-height: 58.5px;
+    line-height: 59px;
     letter-spacing: 0.04em;
     color: var(--color-white);
 }
@@ -81,6 +81,6 @@
 
     .app__specialMenu-menu_heading {
         font-size: 35px;
-        line-height: 48.5px;
+        line-height: 49px;
     }
 }
