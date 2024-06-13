@@ -14,10 +14,17 @@ const AboutUs = () => (
             <h1 className="headtext__cormorant">
                 About Us
             </h1>
-            <img src="" alt=""/>
+            <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
+            <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Quis pharetra adipiscing ultrices vulputate
+                posuere tristique. In sed odio nec aliquet eu proin mauris et.
+            </p>
         </div>
     </div>
   </div>
 );
 
 export default AboutUs;
+
+
+// Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.
