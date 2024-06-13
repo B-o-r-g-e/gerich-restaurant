@@ -9,6 +9,7 @@ const Header = () => (
     <div className="app__wrapper_info">
         <SubHeading title='Chase The New Flavour' />
         <h1 className='app__header-h1'>The Key to Fine Dining</h1>
+        <p className="p__opensans">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
     </div>
     <div className="app__wrapper_img"></div>
   </div>
