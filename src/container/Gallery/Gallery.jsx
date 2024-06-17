@@ -8,6 +8,10 @@ import './Gallery.css';
 const Gallery = () => {
     const scrollRef = useRef(null);
 
+    const scroll = (direction) => {
+
+    }
+
     return (
         <div className="app__gallery flex__center">
             <div className="app__gallery-content">
@@ -23,6 +27,11 @@ const Gallery = () => {
 
             <div className="app__gallery-images">
                 <div className="app__gallery-images_container" ref={scrollRef}></div>
+
+                <div className="app__gallery-images_arrow">
+                    <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left')} />
+                    <BsArrowRightShort className='gallery__arrow-icon' onClick={() => scroll('right')} />
+                </div>
             </div>
         </div>
     )
